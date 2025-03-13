@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    font-family:"Kanit" ,sans-serif ;
+}
+.main{
+    display:flex;
+    gap:1rem;
+    height:100vh;
+}
+.left-panel{
+    font-family:"Spicy Rice" ,sans-serif ;
+    width:20%;
+    height:100%;
+    background-color: rgb(140, 174, 231);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+     justify-content: center;
+     color: rgb(8, 7, 7);
+}
+.right-panel{
+    width:80%;
+    height:100%;
+    background-color:rgb(236, 221, 204);
+    overflow-y:scroll;
+    pdding:1rem;
+}
+.profile-image{
+    height:7rem;
+    width:7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.icons{
+    list-style-type: none;
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.icons img{
+    height: 5rem;
+    width:5rem;
+}
+h3{
+    color:rgb(17, 38, 223);
+    font-size: 32px;
+}
+p{
+    font-size: 20px;
+}
+h4{
+    color:brown;
+    font-size: 24px;
+}
+.skill-icons {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.skill-icons img{
+    height:5rem;
+    width:5rem;
+}
+.contact{
+    font-size: 20px;
+}
+.hobbies{
+    font-size: 20px;
+}
+.languages{
+    font-size: 20px; 
+}
